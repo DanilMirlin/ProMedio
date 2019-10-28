@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+#tripsTable{
+  width: 100%;
+  border-spacing: 0;
+}
+#tripsTable th, #tripsTable td {
+  border: 1px solid #eee;
+  padding:10px;
+
+}
+#tripsTable th{
+  background: rgba(0,0,0,0.2);
+  width: 25%;
+}
+.searchItem{
+  display: inline-block;
+  width: 25%;
+  padding:10px 0;
+  text-align: center;
+}
